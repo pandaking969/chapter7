@@ -1,0 +1,18 @@
+<RootWidget>:
+    orientation: "vertical"
+    Label:
+        id: hello_text
+        text: str(root.counter)
+        font_size: "50sp"
+    Label:
+        id: my_text
+        text: "İkinci yazı"
+    Button:
+        text: "Baslat"
+        on_press: my_text.text = root.startCounter()
+    Button:
+        text: "Pause"
+        on_press: my_text.text = root.pauseCounter()
+    Button:
+        text: "Reset"
+        on_press: my_text.text = root.resetCounter()

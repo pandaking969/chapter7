@@ -1,0 +1,11 @@
+print(cancer.descr)= contine 569 de exemple/monstre de tipuri de cancer si imagini cu FNA(fine needle aspirates) care e o procedura prin care se cerceteaza umflaturiile 
+-sunt niste date marcate
+-is vreo 30 de optiuni care descriu fiecare "monstra" usor/grava
+
+print(cancer.feature_names) = ne arata o lista de optiuni pentru fiecare monstra de cancer 
+
+Deci pe scurt programu alege de exemplu "textura urata" si "puncte concave urate" si da un rezultat de cancer x grav
+sau daca are textura aproape normala si puncte concave aproape normale va da rezultat ==> cancer x benign
+Si asa invata el.
+Dupa ce antrenam algoritmu putem sa-l testam pe o noua monstra ca sa vedem daca avem de-a face cu o monstra benigna 
+sau cu o monstra rea/in ultimele faze.

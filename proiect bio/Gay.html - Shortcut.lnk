@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.design{
+			color: red;
+			font-size: 25px;
+			font-family: Arial;
+		}
+		.desing-doi{
+			color: red;
+			font-size: 25px;
+			font-family: Arial;
+			background-color: black;
+		}
+		.html{
+			color: red;
+			font-size: 32px;
+			font-family: Arial;
+			position: relative;
+			left: 100px;
+		}
+		.css{
+			color: green;
+			font-size: 32px;
+			font-family: Arial;
+			position: relative;
+			left: 100px;
+		}
+		.php{
+			color: blue;
+			font-size: 32px;
+			font-family: Arial;
+			position: relative;
+			left: 100px;
+		}
+		.js{
+			color: green;
+			font-size: 32px;
+			font-family: Arial;
+			position: relative;
+			left: 100px;
+		}
+		.MySql{
+			color: black;
+			font-size: 32px;
+			font-family: Arial;
+			position: relative;
+			left: 100px;
+		}
+	</style>
+</head>
+<body>
+	<div class="html"><del>Html</del></div>
+	<div class="css"><del>Css</del></div>	
+	
+	<div class="php"><u>Php</u></div>
+	<div class="js"><u>JavaScript</u></div>
+	<div class="MySql"><u>MySql</u></div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>

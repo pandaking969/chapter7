@@ -1,0 +1,15 @@
+AddVerbForm:
+
+<AddVerbForm>:
+	orientation: "vertical"
+	cauta_verb: search_box
+	BoxLayout:
+		height: "40dp"
+		size_hint_y: None
+		TextInput:
+			id: search_box
+			size_hint_x: 50
+		Button:
+			text:"Afla"
+			size_hint_x: 25
+			on_press: root.afla_mod_si_timp()
